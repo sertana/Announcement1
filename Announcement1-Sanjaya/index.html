@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dangal</title>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Pacifico" rel="stylesheet">
+	<style type="text/css">
+		#everypage {
+			display: flex;
+			flex-direction: column;
+			margin-left: 10px;
+			padding: 5px;
+			background: url("https://i.pinimg.com/736x/c3/6f/bc/c36fbcd897f30b3b7e30eaab22224492--aamir-khan-filmy.jpg");
+			background-size:cover;
+		}
+		@keyframes slide {
+			0% { 
+				text-align: left;
+				transition: 1.5s;
+			}
+			50% {
+				text-align: center;
+				transition: 1.5s;
+			}
+			100% {
+				text-align: right;
+				transition: 2s;
+			}
+		}	
+		h1 {
+			font-size: 100px;
+			letter-spacing: 5px;
+			font-weight: bolder;
+			text-decoration: underline;
+			text-align: center;
+			font-family: 'Anton', sans-serif;
+			color: navy blue;
+			animation: slide 5s ease-in-out 0s infinite;
+		
+		}
+		h2 {
+			font-size:40px;
+			font-family: 'Pacifico', cursive;
+			text-align: center;
+			color: navy blue;
+		} 
+		p {
+			font-size: 25px;
+			font-weight: bolder;
+			font-family: 'Pacifico', cursive;
+			text-align: left;
+			color: navy blue;
+		}
+		#header {
+			border:8px solid black;
+			border-radius:20px;
+		}
+		#nav {
+			display: flex;
+			justify-content: space-around;
+			background: #dfcaae;
+			padding :5px;
+			margin:10px;
+		}
+		#offtra {
+			margin: 0 auto;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+		#synop {
+		border:8px  solid black;
+		border-radius: 20px;
+		background:#dfcaae; 
+		}
+		.top {
+			font-size: 25px;
+			font-style: italic;
+			color: navy blue;
+		}
+		a {
+			color:red;
+		}
+		a:hover {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+<div id="everypage">
+
+	<div id="header">
+		<h1>DANGAL</h1>
+		<h2>Are our daughters less than boys?</h2>
+	</div>
+	<div id="nav">
+		<div class="top" id="about"><a href="index.html">About</a></div>
+		<div class="top" id="cast"><a href="Cast.html">Cast and BO</a></div>
+		<div class="top" id="images"><a href="image.html">Images</a></div>
+	</div>
+	<div id="offtra">
+		<iframe width="800" height="480" src="https://www.youtube.com/embed/x_7YlGv9u1g" frameborder="0" gesture="media" allowfullscreen></iframe>
+
+	</div>
+	<div id="synop">
+		<h2> Synopsis</h2>
+		<p>Dangal is a 2016 Indian Hindi-language biographical sports drama film, loosely based on the story of Mahavir Singh Phogat, an amateur wrestler, who trains his daughters Geeta Phogat and Babita Kumari to be India's first world-class female wrestlers. </p><br>
+		<p>Mahavir Singh Phogat (Aamir Khan) is a former amateur wrestler and national champion based in Balali, a village in Haryana. He was forced by his father to give up the sport in order to obtain gainful employment. Dejected that he could not win a medal for his country, he vows that his unborn son will. Disappointed upon having four daughters, he gives up hope. But when his older daughters Geeta and Babita come home after beating up two boys in response to derogatory comments, he realises their potential to become wrestlers and begins coaching them</p><br>
+	</div>	
+</div>
+</body>
+</html>

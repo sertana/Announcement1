@@ -1,0 +1,48 @@
+
+		#everypage {
+			display: flex;
+			flex-direction: column;
+			margin-left: 10px;
+			padding: 5px;
+			background: url("https://i.pinimg.com/736x/c3/6f/bc/c36fbcd897f30b3b7e30eaab22224492--aamir-khan-filmy.jpg");
+			background-size:cover;
+		}
+		h1 {
+			font-size: 100px;
+			letter-spacing: 5px;
+			font-weight: bolder;
+			text-decoration: underline;
+			text-align: center;
+			font-family: 'Anton', sans-serif;
+			color: navy blue;
+		
+		}
+		h2 {
+			font-size:40px;
+			font-family: 'Pacifico', cursive;
+			text-align: center;
+			color: navy blue;
+		} 
+		#header {
+			border:8px solid black;
+			border-radius:20px;
+		}
+		#nav {
+			display: flex;
+			justify-content: space-around;
+			background: #dfcaae;
+			padding :5px;
+			margin:10px;
+		}	
+
+		.top {
+			font-size: 25px;
+			font-style: italic;
+			color: navy blue;
+		}
+		a {
+			color:red;
+		}
+		a:hover {
+			background-color: blue;
+		}
